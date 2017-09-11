@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+  <!-- head -->
+  <head>
+  	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="WAP projekt">
+  	<title>WAP - projekt</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  
+  <!-- body -->
+  <body>
+    <header id="header" class="box head">
+      <div id="MainTitle">
+        <h1 class="headerTitle">WAP - Validátor formulářů</h1>
+        <h3 class="nameTitle">Daniel Žůrek - xzurek12</h3> 
+      </div>
+    </header> 
+    
+    <div id="card" class="infoCard">
+      <h2> Zadání </h2> 
+      
+      <div class="description">
+        <p>
+          Mějme libovolný formulář v HTML kódu obsahující různé vstupní prvky.
+          Implementujte funkce v JavaScriptu, které umožní definovat následující omezení pro vstupní pole typu text:
+        </p>
+          <ul>
+            <li> Minimální délku textu </li>
+            <li> Maximální délku textu </li>
+            <li> Požadovaný formát dat zapsaný jako regulární výraz </li>
+            <li> Povinné nebo nepovinné pole (nepovinné pole může být prázdné, potom nemusí splňovat žádná další omezení) </li>
+          </ul>
+  
+        <p>
+          Na každé textové vstupní pole lze klást libovolnou kombinaci těchto omezení.
+          Během zadávání se dynamicky zobrazuje stav formuláře - správně vyplněná pole jsou zeleně 
+          podbarvena, špatně vyplněná pole jsou červeně podbarvena, nepovinná nevyplněná pole nejsou podbarvena.
+          Tlačítko pro odeslání formuláře je zobrazeno jako zakázané, dokud nejsou všechna pole správně vyplněna.
+        </p>
+          Projekt je schopný validace více formulářů v jednom dokumentu. Pro ověření funkčnosti slouží Formulář 1 a
+          Formulář 2 níže na stránce. 
+        <p>
+         
+         
+         
+         
+        </p>
+      </div>
+    </div>
+    
+    <div id="card" class="formCard"> 
+      <h2> Formulář 1</h2>
+      <div class="formDiv">
+        <form id="form">  
+          <div class="group">      
+            <input type="text" required min="2">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Minimální délka (2)</label>
+          </div>
+            
+          <div class="group">      
+            <input type="text" required max="6">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Maximální délka (6)</label>
+          </div>
+          
+          <div class="group">      
+            <input type="text" required min="2" max="6">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Minimální délka (2), maximální (6)</label>
+          </div>
+          
+          <div class="group">      
+            <input type="text" required min="4" pattern="hello.+">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Regexp (hello.+), minimální (5)</label>
+          </div>
+          
+          <div class="group">      
+            <input type="text" min="2">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Nepovinné, minimální (2)</label>
+          </div>   
+           
+          <input type="submit" value="Odeslat" class="button">                  
+        </form> 
+      </div>
+    </div> 
+      
+    <div id="card" class="formCard"> 
+      <h2> Formulář 2 </h2>
+      <div class="formDiv">
+        <form id="form">  
+          <div class="group">      
+            <input type="text" required min="3" max="7">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Minimální délka (3), maximální (7)</label>
+          </div>
+      
+          <div class="group">      
+            <input type="text" min="2">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Nepovinné, minimální (3)</label>
+          </div>   
+                            
+          <div class="group">      
+            <input type="text" required min="3" pattern="aaa.*">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Regexp (aaa.*), minimální (3)</label>
+          </div>
+           
+          <input type="submit" value="Odeslat" class="button">                  
+        </form> 
+      </div> 
+    </div>
+  </body>
+  
+    <!-- footer -->
+  <footer id="footer">
+  </footer>
+  <script type="text/javascript" src="app.js"></script>
+  <script> main(); </script>
+</html>

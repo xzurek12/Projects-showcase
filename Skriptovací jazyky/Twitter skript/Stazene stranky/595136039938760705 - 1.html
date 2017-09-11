@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o?o:n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):(o[e]||(o[e]=[]),void o[e].push(n))}var r=e("ee").create(),o={};n.exports=t,t.ee=r,r.q=o},{ee:"QJf3ax"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=(e(2),window),f=u.document,s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-632.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"e9cee6cd82","agent":"js-agent.newrelic.com/nr-632.min.js","transactionName":"AC0MBTUwJgIyMkBZBDlnKCQpMjwYPD8bRww5OEAnLjQ/AmkYWlQOLx4HNDA=","applicationID":"3985580","errorBeacon":"bam.nr-data.net","applicationTime":12}</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <title>Wargaming.net</title>
+
+    <meta http-equiv="x-xrds-location" content="https://eu.wargaming.net/id/openid/yadis/" />
+        <link rel="openid.server" href="https://eu.wargaming.net/id/openid/" />
+        <link rel="openid2.provider" href="https://eu.wargaming.net/id/openid/" />
+
+    
+    <link rel="stylesheet" type="text/css" href="/static/1.10.2/wgnet/css/style.css" media="screen, projection" />
+    
+    <link rel="stylesheet" type="text/css" href="/static/1.10.2/wgnet/css/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="/static/1.10.2/wgnet/css/jquery-ui_custom.css" />
+    <link rel="stylesheet" type="text/css" href="/static/1.10.2/plugins/jquery/mCustomScrollbar/jquery.mcustomscrollbar.css" />
+
+    <script type="text/javascript" charset="utf-8" src="/static/1.10.2/plugins/json2.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/plugins/jquery/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/plugins/underscore/underscore-min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/plugins/backbone/backbone-min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/plugins/uri/URI.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/plugins/store/store.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/plugins/spin/spin.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/plugins/jquery/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/plugins/jquery/position/jquery.position.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/plugins/jquery/mousewheel/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/plugins/jquery/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/plugins/jquery/jquery.cookie.js"></script>
+<!--[if lt IE 9]>
+    <script src="/static/1.10.2/wgnet/js/html5.js"></script>
+<![endif]-->
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/iframeproxy/plugins/porthole/porthole.js"></script>
+
+    <script type="text/javascript" charset="utf-8" src="/static/1.10.2/plugins/jquery/jquery-ui-1.10.3.custom.min.js"></script>
+
+    <script type="text/javascript" charset="utf-8" src="/static/1.10.2/wgnet/js/application.js"></script>
+<script src="/static/1.10.2/i18n/en.js"></script>
+<script type="text/javascript">
+    window.Settings = window.Settings || {};
+    window.Settings.PROJECT = "wgnp";
+    window.Settings.REALM = "eu";
+    window.Settings.LANGUAGE_CODE = "en";
+    window.Settings.IFRAME_PROXY_URL = "https://eu.wargaming.net/iframeproxy/";
+    window.Settings.CSRF_TOKEN = "l3r3Igiy9xkkD5tP7SVD7Z7fizHUbJZW";
+    window.Settings.SITE_PATH = "/";
+    window.Settings.STATIC_URL = "/static/1.10.2/";
+    window.Settings.HOME_URL = "/";
+    
+
+    window.Settings.MOBILE_BROWSER_FORCE_DESKTOP_COOKIE_NAME = "wgn_mobile_browser_force_desktop";
+
+    // SPA ID for partner system.
+        window.wg_suid = 0;
+
+    // add CSRF token for all AJAX requests
+    $.ajaxSetup({
+        beforeSend: function(xhr, settings) {
+            // Only send the token to relative URLs i.e. locally.
+            // This test for relative URL is ugly, but saves the legacy behaviour.
+            var isRelative = !(/^http:.*/.test(settings.url) || /^https:.*/.test(settings.url));
+            if (isRelative) {
+                xhr.setRequestHeader("X-CSRFToken", "l3r3Igiy9xkkD5tP7SVD7Z7fizHUbJZW");
+            }
+        }
+    });
+</script>
+<script type="text/javascript">
+    (function(settings, $, _, window, undefined) {
+        var enableMobileStyles = function() {
+            var staticUrl = settings.STATIC_URL,
+                stylesheets = ['<link rel="stylesheet" type="text/css" href="' + staticUrl + 'wgnet/css/mobile_all.css" />'];
+
+            if (window.Settings.PROJECT === 'wgni') {
+                stylesheets.push('<link rel="stylesheet" type="text/css" href="' + staticUrl + 'wgnet/css/mobile.css" />');
+            }
+
+            var head = $('head');
+            _.each(stylesheets, function(stylesheet) {
+                head.append(stylesheet);
+            });
+        };
+
+        window.Application.on('mobile-browser-detected', function(options) {
+            if (options.detected && !options.forceDesktop) {
+                enableMobileStyles();
+            }
+        });
+
+        window.Application.on('enable-mobile-styles', function(options) {
+            enableMobileStyles();
+        });
+
+        window.Application.on('mobile-browser-detected-onload', function(options) {
+            if (options.detected && options.forceDesktop) {
+                $('.js-mobile-browser-force-desktop-item').show();
+            }
+        });
+
+        $(function() {
+            $('.js-mobile-browser-force-desktop-link').on('click', function() {
+                window.Application.trigger('mobile-browser-force-desktop');
+            });
+        });
+
+    })(window.Settings || {}, jQuery, _, window);
+
+</script>
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/wgnet/js/mobile.js"></script>
+
+<script type="text/javascript">
+    (function(_, window) {
+        window.Messages = _.extend({
+            'JSBASE_UNKNOWN_ERROR': 'Unknown error. Please try again later.',
+            'JSBASE_TIMEOUT_ERROR': 'Connection timed out. Please try again.',
+            'JSBASE_SERVER_ERROR': 'Server temporarily unavailable. Please try again later.',
+            'JSBASE_PARSE_RESPONSE_ERROR': 'Invalid server response.'
+        }, window.Messages || {});
+    })(_, window);
+</script>
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/jsbase/js/scripts.js"></script>
+<div class="js-dialog-client-notifier hidden" data-title="Confirm Action" data-ui-dialog-width="378">
+</div>
+<div class="js-dialog-client-notifier-error hidden" data-title="Error Occurred" data-ui-dialog-width="378">
+</div>
+
+<script type="text/template" id="js-tmpl-notifier-default">
+    <p class="b-paragraph-dialog"><%= context.text %></p>
+    <div class="b-dialog-button">
+        <span class="b-button">
+            <button type="button" class="js-dialog-cancel b-button_right">Close</button>
+        </span>
+    </div>
+</script>
+
+<script type="text/template" id="js-tmpl-notifier-credentialsbasic-incorrect-activation-link" data-title="Update Account">
+    <p class="b-paragraph-dialog">Unable to activate the code. Please update your account again.</p>
+    <div class="b-dialog-button">
+        <span class="b-button">
+            <button type="button" class="js-dialog-cancel b-button_right">Close</button>
+        </span>
+    </div>
+</script>
+
+<script type="text/template" id="js-tmpl-notifier-default-error">
+    <p class="b-paragraph-dialog">Server error. Please reload the page and try again.</p>
+    <div class="b-dialog-button">
+        <span class="b-button">
+            <button type="button" class="js-dialog-cancel b-button_right">Close</button>
+        </span>
+    </div>
+</script>
+
+<script type="text/template" id="js-tmpl-notifier-unsubscribed-notification" data-title="Notifications Canceled">
+    
+    <p class="b-paragraph__noindent">You will no longer receive notifications from Wargaming.net.</br>
+       Thank you.</p>
+    </div>
+</script>
+
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/clientnotifier/js/notifier.js"></script>
+<script type="text/javascript">
+(function(window) {
+    var Application = window.Application,
+        message = null;
+
+    $(function() {
+        if (!_.isUndefined(message) && !_.isNull(message)) {
+            Application.trigger('notifier-show-message', message);
+        }
+    });
+})(window);
+</script>
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/clientstate/js/state.js"></script>
+<script type="text/javascript">
+(function(window) {
+    window.Settings = window.Settings || {};
+    window.Settings.Validation = {
+        'API_REQUEST_TIMEOUT': 2000
+    };
+    window.Settings.Validation.Spa = {
+        'ACCOUNT_PASSWORD_MIN_LENGTH': 6,
+        'ACCOUNT_PASSWORD_MAX_LENGTH': 100,
+        'ACCOUNT_PASSWORD_REGEX': /^[a-zA-Z0-9_]+$/,
+        'ACCOUNT_NAME_MIN_LENGTH': 3,
+        'ACCOUNT_NAME_MAX_LENGTH': 24,
+        'ACCOUNT_NAME_REGEX': /^[a-zA-Z0-9_]+$/,
+        'ACCOUNT_LOGIN_MIN_LENGTH': 1,
+        'ACCOUNT_LOGIN_MAX_LENGTH': 50,
+        'ACCOUNT_LOGIN_REGEX': /^[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)*@([a-zA-Z0-9]([a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z]{2,4}$/
+    };
+})(window);
+</script>
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/clientvalidation/js/forms.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/clientvalidation/js/formsvalidation.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/clientvalidation/plugins/mailcheck/mailcheck.custom.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/clientvalidation/js/verifieddomains/eu.js"></script>
+<script type="text/javascript" charset="utf-8" src="/media/clientvalidation/js/verifieddomains.js"></script>
+
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/l10n/plugins/moment/moment.min.js"></script>
+
+
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/l10n/l10n.js"></script>
+
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/wgnet/js/base.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/wgnet/js/jquery.wg_countrySelect-0.5.3.min.js"></script>
+<script type="text/javascript">
+(function(window) {
+    window.Settings = window.Settings || {};
+    window.Settings.AuthenticationBase = {
+        'ErrorCodeUnauthorized': 401
+    };
+})(window);
+</script>
+<script type="text/javascript">
+(function(window) {
+    window.Settings = window.Settings || {};
+    window.Settings.AuthenticationSSO = {"signinJsonpCallbackParameter": "callback", "signinMode": "notification", "checkIsAuthenticated": true, "signinJsonpUrl": "https://eu.wargaming.net/id/sso/signin/jsonp/", "attemptImmediateCookie": {"path": "/", "name": "wgnp_auth_sso_attempt_immediate"}, "isAuthenticated": 0};
+})(window);
+</script>
+<script type="text/javascript">
+(function(window) {
+    window.Settings = window.Settings || {};
+    window.Settings.AuthenticationOID = {"OpenIdVerifyUrl": "https://eu.wargaming.net/auth/oid/verify/", "OpenIdProcessTokenQueryParameter": "openid_process_token", "OpenIdVerifyImmediateUrl": "https://eu.wargaming.net/auth/oid/verify/immediate/", "LogoutUrl": "/auth/notify/signout/", "LogoutErrorRedirectUrl": "/", "OpenIdProcessStatusUrlTemplate": "/auth/oid/process/status/<%= token %>/"};
+})(window);
+</script>
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/authenticationoid/js/openid.js"></script>
+
+
+    <script type="text/javascript">
+        window.PENDING_OPERATION_JAVASCRIPT_TIMEOUT = 15;
+        window.PENDING_OPERATION_JAVASCRIPT_WAIT = 1;
+    </script>
+
+    
+    
+</head>
+<!--[if lte IE 8]><body class="ie page lang-en display-page"><![endif]-->
+<!--[if !(lte IE 8)]><!--><body class="page lang-en display-page"><!--<![endif]-->
+<div class="b-main b-main__home js-main ">
+        
+        
+
+    <div class="b-global-wrap">
+    <div class="b-global-nav js-global-nav">
+        <ul class="b-global-nav_service">
+            
+    
+    
+    <li class="b-global-nav_item">
+        <a href="http://eu.wargaming.net" class="js-menu-link b-global-nav_link">
+            <span class="b-global-nav_bg b-global-nav__home">
+                <span class="b-global-nav_home-ico"></span>
+            </span>
+        </a>
+    </li>
+    
+    
+    
+    <li class="js-menu b-global-nav_item">
+        <a href="#" class="js-menu-link b-global-nav_link">
+            <span class="b-global-nav_bg b-global-nav__arrow">
+                Games
+                <span class="b-global-nav_arrow"></span>
+            </span>
+        </a>
+        <ul class="b-global-nav_submenu b-global-nav_submenu__game">
+            <li class="b-global-nav_game">
+        <a href="http://worldoftanks.eu" class="b-global-nav_game-link">
+            <span class="b-global-nav_game-logo b-global-nav_game-logo__wot">World of Tanks</span>
+            <span class="b-global-nav_game-text">
+                <span class="b-global-nav_game-name">World of Tanks</span>
+                Massive online tank clashes. Award-winning free-to-play action MMO game.
+            </span>
+        </a>
+    </li>
+            <li class="b-global-nav_game">
+        <a href="http://worldofwarplanes.eu" class="b-global-nav_game-link">
+            <span class="b-global-nav_game-logo b-global-nav_game-logo__wowp">World of Warplanes</span>
+            <span class="b-global-nav_game-text">
+                <span class="b-global-nav_game-name">World of Warplanes</span>
+                Fierce battle for air supremacy. One of the most anticipated MMO projects of the year.
+            </span>
+        </a>
+    </li>
+            <li class="b-global-nav_game">
+        <a href="http://worldofwarships.eu" class="b-global-nav_game-link">
+            <span class="b-global-nav_game-logo b-global-nav_game-logo__wows">World of Warships</span>
+            <span class="b-global-nav_game-text">
+                <span class="b-global-nav_game-name">World of Warships</span>
+                Epic naval warfare. Enormous fleet of warships dating back to the 20th century.
+            </span>
+        </a>
+    </li>
+            <li class="b-global-nav_game">
+                <ul class="b-game-other">
+                    <li class="b-game-other_item"><a href="http://wotgenerals.eu" class="b-game-other_wotg"></a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    
+    <li class="b-global-nav_item">
+        <a class="b-global-nav_link" href="https://eu.wargaming.net/support/">
+            <span class="b-global-nav_bg">Support</span>
+        </a>
+    </li>
+    
+    <li class="b-global-nav_item">
+        <a class="b-global-nav_link" href="http://wiki.worldoftanks.eu">
+            <span class="b-global-nav_bg">Wiki</span>
+        </a>
+    </li>
+    
+    <li class="js-menu b-global-nav_item">
+        <a href="#" class="js-menu-link b-global-nav_link">
+            <span class="b-global-nav_bg b-global-nav__arrow">
+                Forums
+                <span class="b-global-nav_arrow"></span>
+            </span>
+        </a>
+        <ul class="b-global-nav_submenu b-global-nav_submenu__forum">
+            
+    <li class="b-global-nav_forum b-global-nav_forum__wot">
+        <a class="b-global-nav_forum-link" href="http://forum.worldoftanks.eu">
+            <span class="b-global-nav_forum-ico b-global-nav_forum-ico__wot">World of Tanks</span>
+            <span class="b-global-nav_forum-name">World of Tanks</span>
+        </a>
+    </li>
+            
+    <li class="b-global-nav_forum b-global-nav_forum__wowp">
+        <a class="b-global-nav_forum-link" href="http://forum.worldofwarplanes.eu">
+            <span class="b-global-nav_forum-ico b-global-nav_forum-ico__wowp">World of Warplanes</span>
+            <span class="b-global-nav_forum-name">World of Warplanes</span>
+        </a>
+    </li>
+            
+    <li class="b-global-nav_forum b-global-nav_forum__wows">
+        <a class="b-global-nav_forum-link" href="http://forum.worldofwarships.eu">
+            <span class="b-global-nav_forum-ico b-global-nav_forum-ico__wows">World of Warships</span>
+            <span class="b-global-nav_forum-name">World of Warships</span>
+        </a>
+    </li>
+        </ul>
+    </li>
+    
+
+        </ul>
+        <ul class="b-global-nav_login">
+            
+    
+        
+        <li class="b-global-nav_item b-global-nav_item__nologin js-auth-menu-not-authenticated">
+            
+            
+                <a href="/auth/oid/new/?next=/" class="b-global-nav_link js-auth-openid-link" data-next-url="/">Log in</a>
+                or
+                <a href="https://eu.wargaming.net/registration/" class="b-global-nav_link">create account</a>
+            
+        </li>
+        
+    
+    
+        <li class="js-menu b-global-nav_item">
+            <a href="#" class="js-menu-link b-global-nav_link">
+                <span class="b-global-nav_bg b-global-nav__region b-global-nav__arrow">
+                    <span class="b-global-nav_region-ico"></span>
+                    <span class="b-global-nav_arrow"></span>
+                </span>
+            </a>
+            <div class="b-global-nav_submenu b-global-nav_submenu__region">
+                <div class="b-global-nav_regionbg">
+                    <ul class="b-global-nav_region">
+                        
+                            <li class="b-global-nav_region_item">
+                                <a class="b-global-nav_region_name" href="http://ru.wargaming.net/?change_realm=1">Россия</a>
+                                <ul class="b-global-nav_language-list">
+                                    
+                                        <li class="b-global-nav_language-item"><a class="b-global-nav_language" href="http://ru.wargaming.net/?change_realm=1&amp;language=ru">Русский</a></li>
+                                    
+                                </ul>
+                            </li>
+                        
+                            <li class="b-global-nav_region_item">
+                                <a class="b-global-nav_region_name" href="http://na.wargaming.net/?change_realm=1">North America</a>
+                                <ul class="b-global-nav_language-list">
+                                    
+                                        <li class="b-global-nav_language-item"><a class="b-global-nav_language" href="http://na.wargaming.net/?change_realm=1&amp;language=en">English</a></li>
+                                    
+                                        <li class="b-global-nav_language-item"><a class="b-global-nav_language" href="http://na.wargaming.net/?change_realm=1&amp;language=es-ar">Español</a></li>
+                                    
+                                        <li class="b-global-nav_language-item"><a class="b-global-nav_language" href="http://na.wargaming.net/?change_realm=1&amp;language=pt-br">Português</a></li>
+                                    
+                                </ul>
+                            </li>
+                        
+                            <li class="b-global-nav_region_item">
+                                <a class="b-global-nav_region_name" href="/">Europe</a>
+                                <ul class="b-global-nav_language-list">
+                                    
+                                        <li class="b-global-nav_language-item active"><a class="b-global-nav_language" href="?language=en">English</a></li>
+                                    
+                                        <li class="b-global-nav_language-item"><a class="b-global-nav_language" href="?language=cs">Čeština</a></li>
+                                    
+                                        <li class="b-global-nav_language-item"><a class="b-global-nav_language" href="?language=de">Deutsch</a></li>
+                                    
+                                        <li class="b-global-nav_language-item"><a class="b-global-nav_language" href="?language=es">Español</a></li>
+                                    
+                                        <li class="b-global-nav_language-item"><a class="b-global-nav_language" href="?language=fr">Français</a></li>
+                                    
+                                        <li class="b-global-nav_language-item"><a class="b-global-nav_language" href="?language=pl">Polski</a></li>
+                                    
+                                        <li class="b-global-nav_language-item"><a class="b-global-nav_language" href="?language=tr">Türkçe</a></li>
+                                    
+                                </ul>
+                            </li>
+                        
+                            <li class="b-global-nav_region_item">
+                                <a class="b-global-nav_region_name" href="http://asia.wargaming.net/?change_realm=1">Asia</a>
+                                <ul class="b-global-nav_language-list">
+                                    
+                                        <li class="b-global-nav_language-item"><a class="b-global-nav_language" href="http://asia.wargaming.net/?change_realm=1&amp;language=en">English</a></li>
+                                    
+                                        <li class="b-global-nav_language-item"><a class="b-global-nav_language" href="http://asia.wargaming.net/?change_realm=1&amp;language=ja">日本語</a></li>
+                                    
+                                        <li class="b-global-nav_language-item"><a class="b-global-nav_language" href="http://asia.wargaming.net/?change_realm=1&amp;language=th">ไทย</a></li>
+                                    
+                                        <li class="b-global-nav_language-item"><a class="b-global-nav_language" href="http://asia.wargaming.net/?change_realm=1&amp;language=vi">Tiếng Việt</a></li>
+                                    
+                                        <li class="b-global-nav_language-item"><a class="b-global-nav_language" href="http://asia.wargaming.net/?change_realm=1&amp;language=zh-tw">繁體中文</a></li>
+                                    
+                                </ul>
+                            </li>
+                        
+                            <li class="b-global-nav_region_item">
+                                <a class="b-global-nav_region_name" href="http://kr.wargaming.net/?change_realm=1">대한민국</a>
+                                <ul class="b-global-nav_language-list">
+                                    
+                                        <li class="b-global-nav_language-item"><a class="b-global-nav_language" href="http://kr.wargaming.net/?change_realm=1&amp;language=ko">한국어</a></li>
+                                    
+                                </ul>
+                            </li>
+                        
+                    </ul>
+                    <div class="b-global-nav_info">
+                        <p class="b-global-nav_info-text">Your account is only valid in one region.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    
+
+        </ul>
+    </div>
+</div>
+
+
+
+        <!-- header: start -->
+        
+        <header class="b-header b-header__page-center js-header">
+        
+            <div class="b-header_content js-header-content">
+                <a class="b-logo " href="/">wargaming.net</a>
+            </div>
+        
+        </header>
+        
+        <!-- header: end -->
+
+        <div class="b-content clearfix js-content ">
+            
+            
+            <!-- content_body: start -->
+            
+            
+    <div class="clearfix">
+        <div class="b-home-enter">
+            
+            
+            
+                <div class="b-big-orange-buttonarea">
+                    <span class="b-big-orange-button">
+                        <a href="https://eu.wargaming.net/registration/" class="b-big-orange-button_right b-button-wrap">Join Now</a>
+                    </span>
+                </div>
+                <p class="b-home-enter_text">
+                    Already have an account?
+                    <a class="b-link-enter js-auth-openid-link" href="/auth/oid/new/?next=/" data-next-url="/">Log in</a>
+                </p>
+            
+        </div>
+        <p class="b-home-text">
+            Unified account. Unified economics. Unified gaming universe. Wargaming.net offers a unique world of epic online battles and ultimate struggle for global supremacy.
+        </p>
+        <a href="/about/">More</a>
+    </div>
+    <ul class="b-projects clearfix">
+        <li class="b-projects_item b-projects__wowp">
+            <a href="http://worldofwarplanes.eu" class="b-projects_image">
+                <span class="b-projects_logo"></span>
+                <span class="b-project_hover"></span>
+                <span class="b-project_text"></span>
+            </a>
+        </li>
+        <li class="b-projects_item b-projects__wot">
+            <a href="http://worldoftanks.eu" class="b-projects_image">
+                <span class="b-projects_logo"></span>
+                <span class="b-project_hover"></span>
+                <span class="b-project_text"></span>
+            </a>
+        </li>
+        <li class="b-projects_item b-projects__wows">
+            <a href="http://worldofwarships.eu" class="b-projects_image">
+                <span class="b-projects_logo"></span>
+                <span class="b-project_hover"></span>
+                <span class="b-project_text"></span>
+            </a>
+        </li>
+    </ul>
+
+            <!-- content_body: end -->
+        </div>
+    </div>
+
+    
+    
+<footer class="b-footer b-footer__home js-footer">
+    <div class="b-footer-content">
+        <div class="l-footer-wrap clearfix">
+            <ul class="b-footer-menu">
+                
+                
+                <li class="b-footer-menu_title b-footer-menu_title__wot">
+                    <a class="b-footer-menu_project" href="http://worldoftanks.eu">World of Tanks</a>
+                    <ul class="b-footer-menu_list">
+                        
+                            
+                        <li class="b-footer-menu_item"><a href="http://worldoftanks.eu/update" class="b-footer-menu_link">Download Game</a></li>
+                        <li class="b-footer-menu_item"><a href="http://worldoftanks.eu/game/" class="b-footer-menu_link">About</a></li>
+                        <li class="b-footer-menu_item"><a href="http://worldoftanks.eu/media/" class="b-footer-menu_link">Media</a></li>
+                    </ul>
+                </li>
+                
+                
+                <li class="b-footer-menu_title b-footer-menu_title__wowp">
+                    <a class="b-footer-menu_project" href="http://worldofwarplanes.eu">World of Warplanes</a>
+                    <ul class="b-footer-menu_list">
+                        
+                            
+                                
+                        <li class="b-footer-menu_item"><a href="http://worldofwarplanes.eu/update/" class="b-footer-menu_link">Download Game</a></li>
+                        
+                        <li class="b-footer-menu_item"><a href="http://worldofwarplanes.eu/game" class="b-footer-menu_link">About</a></li>
+                        <li class="b-footer-menu_item"><a href="http://worldofwarplanes.eu/media/" class="b-footer-menu_link">Media</a></li>
+                    </ul>
+                </li>
+                
+                
+                <li class="b-footer-menu_title b-footer-menu_title__wobs">
+                    <a class="b-footer-menu_project" href="http://worldofwarships.eu">World of Warships</a>
+                    <ul class="b-footer-menu_list">
+                        <li class="b-footer-menu_item"><a href="http://worldofwarships.eu" class="b-footer-menu_link">About</a></li>
+                        <li class="b-footer-menu_item"><a href="http://blog.worldofwarships.eu" class="b-footer-menu_link">Developers Blog</a></li>
+                    </ul>
+                </li>
+                
+                
+                <li class="b-footer-menu_title b-footer-menu_title__support">
+                    <a class="b-footer-menu_project" href="https://eu.wargaming.net/support/">Support</a>
+                    <ul class="b-footer-menu_list">
+                        <li class="b-footer-menu_item"><a href="https://eu.wargaming.net/support/Tickets/Submit" class="b-footer-menu_link">Contact Us</a></li>
+                        <li class="b-footer-menu_item"><a href="http://eu.wargaming.net/user_agreement/" class="b-footer-menu_link">EULA</a></li>
+                        <li class="b-footer-menu_item"><a href="http://eu.wargaming.net/privacy_policy/" class="b-footer-menu_link">Privacy Policy</a></li>
+                        <li class="b-footer-menu_item"><a href="http://eu.wargaming.net/terms_of_service/" class="b-footer-menu_link">Terms of Service</a></li>
+                        <li class="b-footer-menu_item js-mobile-browser-force-desktop-item hidden">
+                            <a href="#" class="b-footer-menu_link js-mobile-browser-force-desktop-link">Mobile version</a>
+                        </li>
+                    </ul>
+                </li>
+                
+            </ul>
+            <div class="b-copyright">
+                
+                <span class="b-copyright_wg-logo">
+                    <a class="b-copyright_logo-link" href="http://wargaming.com"></a>
+                </span>
+                
+                <ul class="b-resource">
+                    
+                    <li class="b-resource_item"><a class="b-resource_ico b-resource_ico__youtube" href="http://www.youtube.com/user/wargamingNETcom"></a></li>
+                    <li class="b-resource_item"><a class="b-resource_ico b-resource_ico__facebook" href="http://www.facebook.com/pages/WARGAMINGNET/296467814480"></a></li>
+                    <li class="b-resource_item"><a class="b-resource_ico b-resource_ico__twitter" href="https://twitter.com/wargaming_net"></a></li>
+                    <li class="b-resource_item"><a class="b-resource_ico b-resource_ico__google" href="https://plus.google.com/u/0/105483340120702728969/posts"></a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="b-ratings">
+            
+            <p class="b-ratings_copyright b-ratings_copyright__light">© 2012–2015 <span class="b-ratings_copyright__bold">Wargaming.net.</span> All rights reserved. Powered by BigWorld Technology™ ©</p>
+        </div>
+    </div>
+    <div class="b-mobile">
+        <a class="b-copyright-logo" href="http://wargaming.com">Wargaming.net</a>
+        <p class="b-copyright-text">© 2012–2015 <span class="b-ratings_copyright__bold">Wargaming.net.</span><br/>
+        All rights reserved.<br/>
+        Powered by BigWorld Technology™&nbsp;©</p>
+        
+        <ul class="b-footer-mobile-menu">
+            <li class="b-footer-mobile-menu_item">
+                <a class="b-footer-mobile-menu_link" href="http://eu.wargaming.net/privacy_policy/">Privacy Policy</a>
+            </li>
+            <li class="b-footer-mobile-menu_item">
+                <a class="b-footer-mobile-menu_link" href="http://eu.wargaming.net/user_agreement/">EULA</a>
+            </li>
+            <li class="b-footer-mobile-menu_item">
+                <a class="b-footer-mobile-menu_link" href="http://eu.wargaming.net/terms_of_service/">Terms of Service</a>
+            </li>
+        </ul>
+        <ul class="b-footer-mobile-menu">
+            <li class="b-footer-mobile-menu_item">
+                <a class="b-footer-mobile-menu_link" href="https://eu.wargaming.net/support/Tickets/Submit">Contact Us</a>
+            </li>
+            <li class="b-footer-mobile-menu_item">
+                <a class="b-footer-mobile-menu_link js-mobile-browser-force-desktop-link" href="#">Full version</a>
+            </li>
+        </ul>
+    </div>
+</footer>
+    
+
+<script type="text/javascript">
+    window.Settings = window.Settings || {};
+    window.Settings.Geowidgets = {"URL": "/realm/geowidget/", "COOKIE_PREFIX": "wgn_geowidget_", "COOKIE_MAX_AGE": 31536000, "PASS_THROUGH_PARAMETERS": ["sid", "game", "password_flow", "style"]};
+</script>
+<script type="text/javascript" charset="utf-8" src="/static/1.10.2/realm/js/geowidgets.js"></script>
+        <script type="text/javascript">
+        window.Application.trigger(window.Settings.Geowidgets.Event, 'popup');
+    </script>
+
+
+    <script type="text/javascript">
+        window.Application.trigger(window.Settings.Geowidgets.Event, 'popout');
+    </script>
+
+
+
+
+
+
+    
+
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WRP5"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer', 'GTM-WRP5');
+    </script>
+
+
+</body>
+</html>

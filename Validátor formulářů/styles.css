@@ -1,0 +1,186 @@
+body {
+  background: #F5F5F5;
+  margin: 0px;
+  min-width: 1000px;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  height: 240px;
+  width: 100%;
+  background: #009688!important;
+}
+
+.headerTitle {
+  margin: 0px;
+  text-align : center;
+  font-weight: lighter;
+  padding-top: 60px;
+  color: white;
+  font-size: 40px;
+}
+
+h2 {
+  color: #616161;
+  font-weight: lighter;
+  padding: 20px 0px 0px 20px;
+  margin: 0px;
+}
+
+h3 {
+  font-weight: lighter;
+}
+
+p {
+  color: #424242;
+}
+
+ul {
+  color: #424242;
+}
+
+.nameTitle {
+  margin: 0px;
+  text-align : center;
+  color: white;
+}
+
+#card{
+  background: #E0F2F1;
+  width: 40%;
+  min-width: 500px;
+  position: relative;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.infoCard {
+  height: 460px;
+  margin: -50px auto 0px auto;
+}
+
+.description {
+  height: 300px;
+  width: 80%;
+  position: relative;
+  text-align: justify;
+  margin: 30px auto;
+  font-size: 14px;
+}
+
+.formCard {
+  height: 500px;
+  margin: 15px auto 0px auto;
+}
+
+.formDiv {
+  width: 300px;
+  margin: 30px auto;
+}
+
+.button {
+  background-color: #00897B; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;    
+  width: 315px;
+  margin: 0 auto;
+}
+
+.button {
+    background-color: white; 
+    color: #424242; 
+    border: 2px solid #00897B;
+}
+
+.button:hover {
+    background-color: #00897B;
+    color: white;
+}
+
+.group { 
+  position:relative; 
+  margin-bottom:25px; 
+}
+
+input {
+  font-size:16px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;         
+  border:none;
+  border-bottom:1px solid #757575;
+}
+
+input:focus {
+  outline:none;
+}
+
+label {
+  color:#999; 
+  font-size:16px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+}
+
+input:focus ~ label, input:valid ~ label {
+  top:-20px;
+  font-size:14px;
+  color:#00897B;
+}
+
+.bar  {
+  position:relative; 
+  display:block; 
+  width:300px;
+}
+.bar:before, .bar:after {
+  content:'';         
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:#00897B; 
+  transition:0.2s ease all; 
+}
+
+.bar:before {
+  left:50%;
+}
+
+.bar:after {
+  right:50%; 
+}
+
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
+}
+
+.ok {
+  background-color:#1DE9B6; 
+}
+
+.nok {
+  background-color:#FF8A80; 
+}
+
+.blank {
+  background-color:white; 
+}
+
+
+
+
+footer {
+  height: 100px;
+  margin-top: 15px;
+}

@@ -1,0 +1,1 @@
+Program pro procesor ADuC7020 pro komunikaci mezi procesorem, akcelerometrem a Bluetooth vysílaèem.
